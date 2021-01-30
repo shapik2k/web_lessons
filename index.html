@@ -13,67 +13,66 @@ body{
      background-size: 1440px; 
 }
 
-#wrapper{ /* Оболочка страницы сайта */
-  width: 900px; /* Меняется ширина страницы */
+#wrapper{ 
+  width: 900px; 
   margin: 0 auto;
-  background:#f2e8c9; /* Меняется задний фон страницы */
+  background:#f2e8c9; 
 }
 
-/* Шапка сайта */
+
 
 #header{
-position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
-  height: 250px; /* Высота шапки */
-  background-color: #c28eff; /* Фон шапки */
-   margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
-  border-radius: 3px; /* Закругляются углы блока */
-  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+position:relative; 
+  height: 250px; 
+  background-color: #c28eff; 
+   margin-bottom: 5px; 
+  border-radius: 3px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
 }
-img{ /* Фоновая картинка в шапке */
-float: left; /* Разрешаем наплывание других элементов на картинку */
-  margin: -40px 0 0 0;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
-h1{ /* Заголовок сайта */
-  margin:0 0 10px 330px; /* Заголовок двигается верх-вправо-вниз-влево. */
-  color:#464451; /* Цвет заголовка */
+img{ 
+float: left; 
+  margin: -40px 0 0 0;} 
+h1{ 
+  margin:0 0 10px 330px; 
+  color:#464451; 
+
+#sidebar{ 
+  background-color: #19fafa; 
+  width: 880px; 
+  padding: 10px; 
+  float: right; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 10px; 
 }
 
-#sidebar{ /* Блок сайдбара */
-  background-color: #19fafa; /* Фон блока */
-  width: 880px; /* Ширина блока */
-  padding: 10px; /* Отступ текста от краёв */
-  float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
-  border-radius: 5px; /* Закругляем углы блока */
-  box-shadow: rgba(0,0,0,0.5) 0px 1px 10px; /* Задаём блоку тень */
-}
-
-#content{ /* Блок контента */
-  margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
-  width: 250px; /* Ширина статьи */
-  padding: 10px; /* Отступ текста от краёв блока */
-  background: #c28eff; /* Фон статьи */
+#content{ 
+  margin-bottom: 5px; 
+  width: 250px; 
+  padding: 10px; 
+  background: #c28eff; 
   border-radius: 5px;
   box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
 }
 
-#footer{ /* Блок подвала */
-  height:80px; /* Высота блока подвала */
-  background-color: #c28eff; /* Фон блока подвала */
-  margin-bottom: 10px; /* Отступ снизу */
-  border-radius: 5px; /* Закруглённые углы */
-  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+#footer{ 
+  height:80px; 
+  background-color: #c28eff; 
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
 }
-.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+.clear{ 
   clear: both;
 }
-  .fon{ /* Номер телефона */
-  float:left; /* Разрешаем другим элементам обтекать абзац справа */
+  .fon{ 
+  float:left; 
   margin:20px 0 0 20px;
 }
-.fax{ /* Номер факса */
+.fax{ 
   float:left;
   margin:20px 0 0 60px;
 }
-.mail{ /* Адрес E-mail */
+.mail{ 
   float:left;
  margin:20px 0 0 560px;
 }
@@ -81,14 +80,14 @@ h1{ /* Заголовок сайта */
 </head>
 <body>
     <p><img src="sh2kkk.jpg"></p>
-  <div id="wrapper"> <!--Оболочка страницы-->
-<!--Шапка сайта-->
+  <div id="wrapper"> 
+
     <div id="header">
-<!--Заголовок сайта-->
+
       <h1>Sergey Shapoval</h1>
-<!--Сайдбар-->
+
     <div id="sidebar">
-<!--меню-->
+
 
 <h3>На моем сайте</h3>
 <p>Здесь вы сможете ознакомится с моими работами, а так же найти мои контактные данные.</p>
@@ -99,42 +98,42 @@ h1{ /* Заголовок сайта */
 
 <h3>Лабораторные работы</h3>
 <p>
-    <!--Ссылка на страницу сайта-->
+    
     <a href="https://github.com/shapik2k/web_lessons/tree/master/01"
     style="margin-left:5px;" - отступ названия от маркера-->
     <span style="margin-left:5px;">Первая Лабораторная</span></a>
-    <!--Закрываем абзац-->
+    
     </p>
-    <!--Ссылка на страницу сайта-->
+    
     <a href="https://github.com/shapik2k/web_lessons/tree/master/02"
         style="margin-left:5px;" - отступ названия от маркера-->
         <span style="margin-left:5px;">Вторая Лабораторная</span></a>
-        <!--Закрываем абзац-->
+        
         </p>
-    <!--Закрываем строку Меню-->
+    
     </td>
     </tr>
 </table>
-<!--Общая информация в сайдбаре-->
+
 <h3>Ссылка на мой профиль GitHub</h3>
 
-<!--Абзац для ссылки на страницу сайта-->
+
 <p>
-<!--Ссылка на страницу сайта-->
+
 <a href="https://github.com/shapik2k"
 style="margin-left:5px;" - отступ названия от маркера-->
 <span style="margin-left:0px;">Мой GitHub</span></a>
-<!--Закрываем абзац-->
+
 </p>
-<!--Закрываем строку Меню-->
+
 </td>
 </tr>
-<!--Создаём строку с дополнительной информацией-->
+
 <tr>
     </div>
-<!--Запрет наплывания-->
+
   <div class="clear"></div>
-<!--Подвал-->
+
     <div id="footer">
       <p class="fon"><strong>Телефон:<br> +380964744884</strong> </p>
       <p class="mail"><strong>E-mail:<br>shapoval.sergey@gmail.com</strong></p>
